@@ -1,0 +1,279 @@
+[gd_scene load_steps=34 format=3 uid="uid://d2s2mnncn4mpu"]
+
+[ext_resource type="Script" path="res://character_body_3d.gd" id="1_kg8g2"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_418nl"]
+size = Vector3(60, 0.2, 60)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sp257"]
+size = Vector3(60, 0.2, 60)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_bgojh"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_ygqaa"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_78yp7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jmgqk"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_xwnnq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_unfwq"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_c7n4r"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_wypyx"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_m3yoy"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_o78wo"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_3kv6j"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_j5ote"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k5eww"]
+size = Vector3(30, 10, 60)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_csqsb"]
+albedo_color = Color(1, 0, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_0b0pp"]
+material = SubResource("StandardMaterial3D_csqsb")
+flip_faces = true
+size = Vector3(30, 10, 60)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e0yrm"]
+size = Vector3(1, 3, 3)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tw6ol"]
+transparency = 1
+albedo_color = Color(1, 1, 1, 0.498039)
+
+[sub_resource type="BoxMesh" id="BoxMesh_fwma3"]
+material = SubResource("StandardMaterial3D_tw6ol")
+size = Vector3(1, 3, 3)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2ahse"]
+albedo_color = Color(0, 0, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_5iv3f"]
+material = SubResource("StandardMaterial3D_2ahse")
+size = Vector3(20, 10, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_so7tc"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_4rgab"]
+material = SubResource("StandardMaterial3D_so7tc")
+size = Vector3(20, 10, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_go485"]
+albedo_color = Color(0, 1, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_e234l"]
+material = SubResource("StandardMaterial3D_go485")
+size = Vector3(20, 10, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hhtep"]
+size = Vector3(15, 10, 15)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_11kts"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_dqgjo"]
+material = SubResource("StandardMaterial3D_11kts")
+flip_faces = true
+size = Vector3(15, 10, 15)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7he4v"]
+size = Vector3(3, 3, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_038bt"]
+transparency = 1
+albedo_color = Color(1, 1, 1, 0.498039)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ccajs"]
+material = SubResource("StandardMaterial3D_038bt")
+size = Vector3(3, 3, 1)
+
+[node name="MainScene" type="Node3D"]
+
+[node name="AkBank" type="AkBank" parent="."]
+bank = {
+"id": 4072029455,
+"name": "New_SoundBank"
+}
+load_on = 1
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 10, 0)
+
+[node name="FloorStaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, -0.2, -15)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="FloorStaticBody3D"]
+mesh = SubResource("BoxMesh_418nl")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="FloorStaticBody3D"]
+shape = SubResource("BoxShape3D_sp257")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5, 15, 12.5)
+script = ExtResource("1_kg8g2")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+shape = SubResource("CapsuleShape3D_bgojh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
+mesh = SubResource("CapsuleMesh_ygqaa")
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+
+[node name="AkListener3D" type="AkListener3D" parent="CharacterBody3D"]
+is_spatial = true
+
+[node name="Area3D" type="Area3D" parent="CharacterBody3D/AkListener3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D/AkListener3D/Area3D"]
+shape = SubResource("CapsuleShape3D_78yp7")
+
+[node name="AuraRigidBody3D" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 15, -15)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AuraRigidBody3D"]
+shape = SubResource("BoxShape3D_jmgqk")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="AuraRigidBody3D"]
+mesh = SubResource("BoxMesh_xwnnq")
+
+[node name="AkEvent3D" type="AkEvent3D" parent="AuraRigidBody3D"]
+event = {
+"id": 2204712644,
+"name": "Play_aura1"
+}
+trigger_on = 2
+is_environment_aware = true
+
+[node name="Area3D" type="Area3D" parent="AuraRigidBody3D/AkEvent3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="AuraRigidBody3D/AkEvent3D/Area3D"]
+shape = SubResource("BoxShape3D_unfwq")
+
+[node name="RobotRigidBody3D" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 15, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RobotRigidBody3D"]
+shape = SubResource("SphereShape3D_c7n4r")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RobotRigidBody3D"]
+mesh = SubResource("SphereMesh_wypyx")
+
+[node name="AkEvent3D" type="AkEvent3D" parent="RobotRigidBody3D"]
+event = {
+"id": 1985594942,
+"name": "Play_robot"
+}
+trigger_on = 2
+
+[node name="Area3D" type="Area3D" parent="RobotRigidBody3D/AkEvent3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RobotRigidBody3D/AkEvent3D/Area3D"]
+shape = SubResource("SphereShape3D_m3yoy")
+
+[node name="ShakeRigidBody3D" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.5, 1, -10)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ShakeRigidBody3D"]
+shape = SubResource("BoxShape3D_o78wo")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ShakeRigidBody3D"]
+mesh = SubResource("BoxMesh_3kv6j")
+
+[node name="AkEvent3D" type="AkEvent3D" parent="ShakeRigidBody3D"]
+event = {
+"id": 3244659120,
+"name": "Play_shake"
+}
+trigger_on = 2
+
+[node name="Area3D" type="Area3D" parent="ShakeRigidBody3D/AkEvent3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="ShakeRigidBody3D/AkEvent3D/Area3D"]
+shape = SubResource("BoxShape3D_j5ote")
+
+[node name="PinkAkRoom" type="AkRoom" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, -15)
+
+[node name="BigCollisionShape3D" type="CollisionShape3D" parent="PinkAkRoom"]
+shape = SubResource("BoxShape3D_k5eww")
+
+[node name="BigMeshInstance3D" type="MeshInstance3D" parent="PinkAkRoom"]
+mesh = SubResource("BoxMesh_0b0pp")
+
+[node name="AkGeometry" type="AkGeometry" parent="PinkAkRoom/BigMeshInstance3D"]
+enable_diffraction = true
+enable_diffraction_on_boundary_edges = true
+
+[node name="PinkAkPortal" type="AkPortal" parent="."]
+front_room = NodePath("../PinkAkRoom")
+enabled = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 1.5, -15)
+
+[node name="BigAkPortalShape" type="CollisionShape3D" parent="PinkAkPortal"]
+shape = SubResource("BoxShape3D_e0yrm")
+
+[node name="BigAkPortalMeshInstance3D" type="MeshInstance3D" parent="PinkAkPortal"]
+mesh = SubResource("BoxMesh_fwma3")
+
+[node name="BlueWallMeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, -25)
+mesh = SubResource("BoxMesh_5iv3f")
+
+[node name="AkGeometry" type="AkGeometry" parent="BlueWallMeshInstance3D"]
+enable_diffraction = true
+enable_diffraction_on_boundary_edges = true
+
+[node name="RedWallMeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, -5)
+mesh = SubResource("BoxMesh_4rgab")
+
+[node name="AkGeometry" type="AkGeometry" parent="RedWallMeshInstance3D"]
+enable_diffraction = true
+enable_diffraction_on_boundary_edges = true
+
+[node name="CyanWall" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 5, -20)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CyanWall"]
+mesh = SubResource("BoxMesh_e234l")
+
+[node name="AkGeometry" type="AkGeometry" parent="CyanWall/MeshInstance3D"]
+enable_diffraction = true
+enable_diffraction_on_boundary_edges = true
+
+[node name="YelloAkRoom" type="AkRoom" parent="."]
+associated_geometry = NodePath("MeshInstance3D/AkGeometry")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 5, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="YelloAkRoom"]
+shape = SubResource("BoxShape3D_hhtep")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="YelloAkRoom"]
+mesh = SubResource("BoxMesh_dqgjo")
+skeleton = NodePath("../..")
+
+[node name="AkGeometry" type="AkGeometry" parent="YelloAkRoom/MeshInstance3D"]
+enable_diffraction = true
+enable_diffraction_on_boundary_edges = true
+
+[node name="YellowAkPortal" type="AkPortal" parent="."]
+front_room = NodePath("../YelloAkRoom")
+enabled = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 1.5, 7.5)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="YellowAkPortal"]
+shape = SubResource("BoxShape3D_7he4v")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="YellowAkPortal"]
+mesh = SubResource("BoxMesh_ccajs")

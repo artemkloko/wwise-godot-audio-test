@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d17w6uxdmoi45"
+path="res://.godot/imported/Medium Wood Hall.wav-6ddd821cd447733b91b970b3f0c52482.sample"
+
+[deps]
+
+source_file="res://audio-test-wwise-project/Originals/Plugins/iZotope Hybrid Reverb/Medium Wood Hall.wav"
+dest_files=["res://.godot/imported/Medium Wood Hall.wav-6ddd821cd447733b91b970b3f0c52482.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

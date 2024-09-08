@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="audio-test-wwise-project" GUID="{50A3F8B2-7CB4-4776-B684-082F9B9EB6D4}" Generator="2023.1.6.8555"/>
+	<CacheRoot>../audio-test-wwise-project/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Android" GUID="{14BE63A4-EB38-4DBB-81C3-130C07EF5DEA}" BasePlatform="Android" BasePlatformGUID="{A2D401DE-B8B6-4FEB-8142-137C34D507CA}" Path="Android"/>
+		<Platform Name="iOS" GUID="{8B15D4E4-2046-4C12-A68C-E45EA1F85309}" BasePlatform="iOS" BasePlatformGUID="{ECE03DB4-F948-462D-B2BB-A9173012B1F8}" Path="iOS"/>
+		<Platform Name="Mac" GUID="{5748CAA5-F336-4E1D-BC7D-D3DA8C649341}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{DE8CE916-5F59-48E6-A1F4-9D26B007F85D}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{73BA2FC2-A9EC-8284-9BD4-0EB139966276}</FileHash>
+</ProjectInfo>

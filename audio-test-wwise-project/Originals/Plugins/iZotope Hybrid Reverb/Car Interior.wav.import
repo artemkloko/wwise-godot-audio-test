@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d0in0550hued4"
+path="res://.godot/imported/Car Interior.wav-19ee706e00660663489b7f5d43285ba6.sample"
+
+[deps]
+
+source_file="res://audio-test-wwise-project/Originals/Plugins/iZotope Hybrid Reverb/Car Interior.wav"
+dest_files=["res://.godot/imported/Car Interior.wav-19ee706e00660663489b7f5d43285ba6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

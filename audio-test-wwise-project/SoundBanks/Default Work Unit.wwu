@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B6A27301-0F22-4AB9-AFF9-9E5A64E45DDF}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{B6A27301-0F22-4AB9-AFF9-9E5A64E45DDF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="New_SoundBank" ID="{DF99013A-36B4-441F-A2DE-7244B0C272EF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_shake" ID="{8E9369EB-873C-4646-94D9-B9B8FC22DA5E}" WorkUnitID="{04A9EF5E-C40E-4A26-814D-8BADC67181F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_robot" ID="{AFACD473-982A-4B33-83C0-9B6892609F50}" WorkUnitID="{04A9EF5E-C40E-4A26-814D-8BADC67181F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_aura1" ID="{884E05E3-89D6-4BE7-8DBC-9899C51E9ABA}" WorkUnitID="{04A9EF5E-C40E-4A26-814D-8BADC67181F5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

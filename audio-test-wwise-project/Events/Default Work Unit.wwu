@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{04A9EF5E-C40E-4A26-814D-8BADC67181F5}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{04A9EF5E-C40E-4A26-814D-8BADC67181F5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_robot" ID="{AFACD473-982A-4B33-83C0-9B6892609F50}">
+					<ChildrenList>
+						<Action Name="" ID="{85E78357-534A-4EAD-A05A-3C023565B612}" ShortID="394893432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="robot" ID="{9E1E943A-40FA-4704-8431-70A962F657CB}" WorkUnitID="{D9439D36-F8A4-4C76-BA8E-A390AA2DA271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_aura1" ID="{884E05E3-89D6-4BE7-8DBC-9899C51E9ABA}">
+					<ChildrenList>
+						<Action Name="" ID="{46A6D144-AA5A-4DE2-8116-8948BC2EC49E}" ShortID="479439563">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="aura1" ID="{9D05008E-5918-4729-BD1A-94EC78BDC773}" WorkUnitID="{D9439D36-F8A4-4C76-BA8E-A390AA2DA271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_shake" ID="{8E9369EB-873C-4646-94D9-B9B8FC22DA5E}">
+					<ChildrenList>
+						<Action Name="" ID="{DEA35E06-8414-4B0E-8E2B-40AA9F0DCC63}" ShortID="584881672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="shake" ID="{785F6DFD-5176-4E4C-8BC4-8C10C86B2F1A}" WorkUnitID="{D9439D36-F8A4-4C76-BA8E-A390AA2DA271}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

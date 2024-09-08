@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="119">
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1725653160" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Virtual Acoustics\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Triggers\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Switches\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\States\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\SoundBanks\Default Work Unit.wwu" DateLow="1725796942" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Queries\Factory Queries.wwu" DateLow="1725653160" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Queries\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Presets\Factory Spatial Audio.wwu" DateLow="1725653160" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Presets\Factory Reflect.wwu" DateLow="1725653172" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Presets\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Modulators\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Mixing Sessions\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Metadata\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1725741555" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Game Parameters\Factory Soundseed Air Game Syncs.wwu" DateLow="1725653172" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Game Parameters\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Events\Default Work Unit.wwu" DateLow="1725796942" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory Reflect.wwu" DateLow="1725653172" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory McDSP Effects.wwu" DateLow="1725653175" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory Mastering Suite.wwu" DateLow="1725653172" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1725653174" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1725653174" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1725653174" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory iZotope Filters.wwu" DateLow="1725653174" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory iZotope Dynamics.wwu" DateLow="1725653174" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory iZotope Delay.wwu" DateLow="1725653174" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory iZotope Box Modeler.wwu" DateLow="1725653174" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory Effects.wwu" DateLow="1725653160" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Factory Auro Headphone.wwu" DateLow="1725653173" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Effects\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1725653160" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Conversion Settings\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Control Surface Sessions\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\audio-test-wwise-project.wproj" DateLow="1725740950" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\audio-test-wwise-project.crossover.wsettings" DateLow="1725831712" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Audio Devices\Default Work Unit.wwu" DateLow="1725740531" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Attenuations\Default Work Unit.wwu" DateLow="1725740732" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1725653160" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Actor-Mixer Hierarchy\Factory Soundseed Air Objects.wwu" DateLow="1725653172" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\godot\audio-test\audio-test-wwise-project\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1725796942" DateHigh="0"/>
+</ValidationCache>

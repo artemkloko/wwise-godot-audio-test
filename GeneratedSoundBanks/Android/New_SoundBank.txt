@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1985594942	Play_robot			\Default Work Unit\Play_robot	
+	2204712644	Play_aura1			\Default Work Unit\Play_aura1	
+	3244659120	Play_shake			\Default Work Unit\Play_shake	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	39805429	shake	Y:\Projects\godot\audio-test\audio-test-wwise-project\.cache\Android\SFX\shake_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\shake		705120
+	877403992	robot	Y:\Projects\godot\audio-test\audio-test-wwise-project\.cache\Android\SFX\robot_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\robot		1059936
+	996917016	aura1	Y:\Projects\godot\audio-test\audio-test-wwise-project\.cache\Android\SFX\aura1_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\aura1		1414752
+
